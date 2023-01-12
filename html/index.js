@@ -1,20 +1,19 @@
- const forms = document.querySelector(".forms"),
-      pwShowHide = document.querySelectorAll(".fa-eye-slash"),
-      links = document.querySelectorAll(".link");
+
+      pwShowHide = document.querySelectorAll(".fa-eye-slash");
 
 pwShowHide.forEach(faEye => {
     faEye.addEventListener("click", () => {
-        let pwFields = faEye.parentElement.parentElement.querySelectorAll(".password");
+        let ojo = faEye.parentElement.parentElement.querySelectorAll(".password");
         
         
-        pwFields.forEach(password => {
+        ojo.forEach(password => {
             if(password.type === "password"){
                 password.type = "text";
-                faEye.classList.replace("fa-eye-slash", "fa-eye");
+                faEye.classList.replace("fa-eye", "fa-eye-slash");
                 return;
             }
             password.type = "password";
-            faEye.classList.replace("fa-eye", "fa-eye-slash");
+            faEye.classList.replace("fa-eye-slash", "fa-eye");
         })
         
     })
