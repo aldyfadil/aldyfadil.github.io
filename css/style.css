@@ -1,0 +1,230 @@
+body {
+    height: fit-content;
+    padding-top:56px;
+}
+
+.jumbotron1 {
+    padding: 2rem 1rem;
+    background-color: #F1FAEE;
+}
+
+
+.fa-eye-slash{
+    position: absolute;
+    bottom: 20%;
+    left: 90%;
+}
+.password{
+    position: relative;
+}
+
+.jumbotron2 {
+    padding: 2rem 1rem;
+    background-color: #DFF2EA;
+}
+
+.jumbotron3 {
+    padding: 2rem 1rem;
+    background-color: #F1FAEE;
+}
+
+.jumbotron4 {
+    padding: 2rem 1rem;
+    background-color: #DFF2EA;
+}
+
+.jumbotron5 {
+    padding: 2rem 1rem;
+    background-color: #F1FAEE;
+}
+
+.jumbotron6 {
+    padding: 2rem 1rem;
+    background-color: #DFF2EA;
+}
+
+.jumbotron7 {
+    padding: 2rem 1rem;
+    background-color: #F1FAEE;
+}
+
+.jumbotron8 {
+    padding: 2rem 1rem;
+    background-color: #F1FAEE;
+}
+
+.jumbotron9 {
+    padding: 2rem 1rem;
+    background-color: #F1FAEE;
+}
+
+.container1 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container3 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container4{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+input[type="email"],
+input[type="password"] {
+    background: #E5E9F2;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border: none;
+    background: #E5E9F2;
+}
+
+input[type="email1"],
+input[type="password1"],
+input[type="text"] {
+    background: #E5E9F2;
+}
+
+input[type="email1"]:focus,
+input[type="password1"]:focus,
+input[type="text"]:focus {
+    outline: none;
+    border: none;
+    background: #E5E9F2;
+}
+
+.img-google {
+    height: 20px;
+    width: 20px;
+}
+
+.jumbotron10 {
+    padding: 2rem 1 rem;
+    background-color: #F1FAEE;
+}
+.jumbotron12{
+    padding: 2rem 1 rem;
+    background-color: #F1FAEE;
+}
+.jumbotron13{
+    padding: 2rem 1 rem;
+    background-color: #DFF2EA;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+.daftar{
+    text-align: center;
+    color: #DFF2EA;
+}
+.daftar:hover{
+    color: #DFF2EA;
+}
+.log{
+    text-align: center;
+    color: white;
+}
+.log:hover{
+    color: white;
+}
+.wrapper{
+    max-height: 220px;
+    border: 0px  solid #ddd;
+    display: flex;
+    overflow-x: auto;
+}
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
+.wrapper .item{
+    min-width: 200px;
+    height: 210px;
+    line-height: 110px;
+    text-align: center;
+    background-color: #DFF2EA;
+    margin-right: 5px;
+    text-shadow: black;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    iframe{
+        width:320px;
+        height: 200px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    iframe{
+        width:420px;
+        height: 250px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    iframe{
+        width:520px;
+        height: 300px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    iframe{
+        width:620px;
+        height: 350px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    iframe{
+        width:720px;
+        height: 400px;
+    }
+}
+main{
+    width: 60%;
+    height: 350px;
+    background: white;
+    margin-top: 50px;
+}
+aside{
+    width: 40%;
+    height: 350px;
+    background: white;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.byr{
+    display: flex;
+}
+.mini{
+    height: 30px;
+    width: 40px;
+    border-radius: 2px;
+}
